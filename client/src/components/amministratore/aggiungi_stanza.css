@@ -1,0 +1,134 @@
+.Add{
+    margin:0;
+   padding: 0;
+   height:97vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url(https://th.bing.com/th/id/R.c625acd96fbca572f6d44a074830c3bc?rik=aDYSZTYQiAfeRQ&riu=http%3a%2f%2fwww.wallpapersmania.com%2fad%2fmisc%2ftravel%2f1920x1080%2ftravel10_k6rprc.jpg&ehk=siNvMV7Czg23w%2fsyvRD90tsf7Qq0pbR0rw0c3pjg2kY%3d&risl=&pid=ImgRaw&r=0);
+ }
+    
+ nav {
+     height: 55px;
+     background-color:dodgerblue;
+     display: flex;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color:aliceblue;
+ }
+     
+ .scritta_add_stanza{
+   margin-left: 38%;
+   margin-top: 10px;
+   font-size: 27px;
+ }
+     
+ nav ul {
+   list-style-type: none;
+   flex: 2;
+   display: flex;
+ }
+     
+ nav li {
+   display: inline;
+   text-align: right;
+   flex: 1;
+   margin-right: 15px;
+ }
+     
+ .pagina_precedente{
+   display: inline-block;
+   font-size: 1.02rem;
+   color:aliceblue;
+   background-color:dodgerblue;
+   margin-right: 2%;
+   border: none;
+   text-decoration: underline;
+   cursor: pointer;
+   font-family:Georgia, 'Times New Roman', Times, serif
+ }
+     
+ .Container_principale_add{
+   background-color: #fff;
+   border-radius: 12px;
+   color: black;
+   padding: 35px;
+   text-align: center;
+   text-rendering: optimizeLegibility;
+   width: 35%;
+   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 16%);
+   position: absolute;
+   margin-top: 6%;
+   margin-left: 30%;
+ }
+     
+ footer{
+   height: 1vh;
+   text-align: left;
+   margin-left: 10px;
+   
+ }
+ 
+ .form-group-id{
+   margin-left: 78px;
+   margin-bottom: 15px;
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+   
+ .form-group-nome{
+   margin-right: 42px;
+   margin-bottom: 15px;
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+ .form-group-descrizione{
+   margin-bottom: 15px;
+   margin-right:25px;
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .form-group-numPersone_adm{
+    margin-bottom: 15px;
+    margin-right:82px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+ 
+ .form-group-prezzo{
+   margin-bottom: 15px;
+   margin-left: 34px;
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+   
+ .form-group-data{
+  margin-bottom: 15px;
+  margin-right: 97px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .btn_add_new{
+   border-radius: 10px;
+   margin-top: 15px;
+   margin-left: 18px;
+   height: 45px;
+   width: 175px;
+   background-color: dodgerblue;
+   color: aliceblue;
+   border: #fff;
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   cursor: pointer;
+ }
+ 
+ .btn_add_new:hover{
+   text-decoration: underline;
+ }
+   
+ input{
+   height: 25px;
+   width: 150px;
+   font-size: small;
+ }

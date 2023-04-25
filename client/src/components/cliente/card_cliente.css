@@ -1,0 +1,47 @@
+.card_cliente{
+    width: 22rem ;
+    height: auto;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.nome_stanza{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.descrizione{
+    font-size: 20px;
+}
+
+.num_persone{
+    font-size: 25px;
+}
+
+.prezzo{
+    font-size: 30px;
+}
+
+.btn_prenota_stanza_cliente{
+    border-radius: 12px;
+    border-color:dodgerblue;
+    height: 50px;
+    width: 180px;
+    font-size:18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:dodgerblue;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.btn_prenota_stanza_cliente:hover{
+    border-color: aliceblue;
+    background-color:dodgerblue;
+    color:aliceblue;
+    text-decoration: underline;
+}

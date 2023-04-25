@@ -1,0 +1,88 @@
+.App{
+  text-align: center;
+  height:97vh;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://th.bing.com/th/id/R.c625acd96fbca572f6d44a074830c3bc?rik=aDYSZTYQiAfeRQ&riu=http%3a%2f%2fwww.wallpapersmania.com%2fad%2fmisc%2ftravel%2f1920x1080%2ftravel10_k6rprc.jpg&ehk=siNvMV7Czg23w%2fsyvRD90tsf7Qq0pbR0rw0c3pjg2kY%3d&risl=&pid=ImgRaw&r=0);
+}
+
+nav {
+  height: 55px;
+  background-color:dodgerblue;
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:aliceblue;
+}
+
+.ScrittaBenvenuto{
+  margin-left: 36%;
+  margin-top: 13px;
+  font-size: 27px;
+}
+
+nav ul {
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li :hover {
+  display: inline;
+  text-align: right;
+  flex: 1;
+  color:indigo;
+}
+
+.admin_btn {
+  background-color:dodgerblue;
+  border: none;
+  display: inline-block;
+  font-size: 1.02rem;
+  color: white;
+  margin-left: 350px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  text-decoration:underline;
+}
+
+.ContainerPrincipale{
+  background-color:aliceblue;
+  border-radius: 12px;
+  color:black;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 40px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  width: 35%;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 16%);
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 29%;
+
+}
+
+.btn_stanze{
+  border-radius: 12px;
+  border-color: aliceblue;
+  height: 70px;
+  width: 130px;
+  font-size:20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:dodgerblue;
+  color: aliceblue;
+  cursor: pointer;
+  margin-left: 13px
+}
+
+.btn_stanze:hover{
+  text-decoration: underline;
+}
+
+footer{
+  height:1vh;
+  text-align: left;
+  margin-left: 10px;
+}

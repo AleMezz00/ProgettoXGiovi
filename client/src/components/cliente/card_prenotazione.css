@@ -1,0 +1,28 @@
+.card_prenotazione{
+    width: 22rem ;
+    height: auto;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.nome_stanza{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.descrizione{
+    font-size: 20px;
+}
+
+.num_persone{
+    font-size: 25px;
+}
+
+.prezzo{
+    font-size: 30px;
+}

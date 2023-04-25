@@ -1,0 +1,60 @@
+.card_admin{
+    width: 22rem ;
+    height: auto;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.id{
+    font-size: 15px;
+}
+
+.nome_stanza{
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 25px;
+}
+
+.descrizione{
+    font-size: 20px;
+}
+
+.num_persone{
+    font-size: 30px;
+}
+
+.prezzo{
+    font-size: 35px;
+    font:bold;
+}
+
+.BOTTONE{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_elimina_stanza{
+    border-radius: 12px;
+    border-color:rgb(255, 0, 0);
+    height: 45px;
+    width: 90px;
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 0, 0);
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 38%;
+}
+
+.btn_elimina_stanza:hover{
+    border-color: aliceblue;
+    background-color:rgb(255, 0, 0);
+    color:aliceblue;
+    text-decoration: underline;
+}
